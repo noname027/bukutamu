@@ -1,0 +1,106 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-content .sidebar-menu .list-item {
+
+  display: flex;
+  flex-direction: row;
+  margin-left: 7px;
+  border-radius: 8px;
+  width: 180px;
+  height: 40px;
+  box-sizing: border-box;
+
+}
+
+.sidebar-content .sidebar-menu .list-item:hover {
+  background: black;
+  transition: all ease-in .2s;
+}
+
+li {
+  list-style: none;
+  color: #FFFFFF;
+  margin-top: 38px;
+  margin-left: 20px;
+
+
+}
+
+button {
+  margin-top: 100px;
+  background-color: black;
+  color: #FFFFFF;
+  display: block;
+  border: none;
+  width: 150px;
+  height: 42px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.sidebar-content {
+  background-color: #0e223e;
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  width: 170px;
+  margin: 0;
+  margin-top: 20px;
+  border: 1px solid #FFFFFF;
+  opacity: 0.8;
+  margin-left: 15px;
+
+}
+
+p {
+  color: #FFFFFF;
+  font-style: normal;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+
+.list-menu li {
+  margin-top: 5px;
+  padding: 5px
+}
+.text-border {
+  padding: 30px;
+  width: 1200px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 35px;
+  color: black;
+  margin: 100px;
+  margin-left: 200px;
+  margin-top: -540px;
+  background-color: #C0C0C0;
+}
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
